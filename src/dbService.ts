@@ -13,7 +13,7 @@ export type BookUpdate = {
 
 class DBService {
     private pool = new Pool({
-        connectionString: "postgresql://bookshelfDatabase_owner:sMfAYgmI9E1W@ep-silent-flower-a54xsfr6.us-east-2.aws.neon.tech/bookshelfDatabase?sslmode=require"
+        connectionString: "postgresql://bookshelfDatabase_owner:sxxxxxxxxxxxxxx@ep-silent-flower-a54xsfr6.us-east-2.aws.neon.tech/bookshelfDatabase?sslmode=require"
     })
 
     public async getBooks(): Promise<Book[]> {
